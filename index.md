@@ -2,12 +2,12 @@
   <img src="./profile.jpeg" alt="Lucas Kulik Chropacz" width="200" style="border-radius: 50%; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);"/>
 </p>
 
-<h1 align="center" style="font-family: 'Helvetica', sans-serif; color: #fff; letter-spacing: 1px;">
+<h1 align="center" style="font-family: 'Helvetica', sans-serif; color: #1A202C; letter-spacing: 1px;">
   Welcome to My Professional Resume
 </h1>
 
 <p align="center">
-  <strong style="font-size: 20px; color: #fff;">
+  <strong style="font-size: 20px; color: #2D3748;">
     Select your preferred language to view the full resume
   </strong>
 </p>

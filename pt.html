@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Renderer</title>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+</head>
+<body>
+
+<h1>Render Markdown File</h1>
+<textarea id="markdown" style="display:none;"></textarea>
+<div id="content"></div>
+
+<script>
+    // Load the Markdown file
+    fetch('README.pt.md')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('markdown').value = text;
+            const converter = new showdown.Converter();
+            const html = converter.makeHtml(text);
+            document.getElementById('content').innerHTML = html;
+        });
+</script>
+
+</body>
+</html>
