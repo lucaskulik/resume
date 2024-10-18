@@ -1,27 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Renderer</title>
-    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
-</head>
-<body>
-
-<h1>Render Markdown File</h1>
-<textarea id="markdown" style="display:none;"></textarea>
-<div id="content"></div>
-
-<script>
-    fetch('README.en.md')
-        .then(response => response.text())
-        .then(text => {
-            document.getElementById('markdown').value = text;
-            const converter = new showdown.Converter();
-            const html = converter.makeHtml(text);
-            document.getElementById('content').innerHTML = html;
-        });
-</script>
-
-</body>
-</html>
+<p align="center">
+    <img src="./profile.jpeg" alt="Lucas Kulik Chropacz" width="200" style="border-radius: 50%; box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);"/>
+  </p>
+  
+  <h1 align="center">Hi there 👋, I'm Lucas Kulik Chropacz!</h1>
+  
+  
+  <h2 id="about-me">About Me</h2>
+  <p><strong>Solutions Architect</strong> with over 7 years of experience in digital transformation projects and the development of scalable and secure architectures. Throughout my career, I have participated in more than 12 high-impact projects, acting in <strong>architecture</strong>, <strong>technical leadership</strong>, and <strong>development</strong>, always focused on efficiently meeting business needs.</p>
+  <p>At Discover, I work on designing and implementing large-scale, scalable, and integrable e-commerce solutions using the SAP Commerce (Hybris) platform, ensuring adaptable and personalized solutions for clients. My experience includes acting as <strong>Tech Lead</strong> in one of the ServiceNow squads at ABInBev (AMBEV) via <strong>Aoop Cloud Solutions</strong>, and as a <strong>Senior SAP Hybris Developer</strong> at <strong>NTT DATA Business Solutions</strong>.</p>
+  <p>I have a strong interest in innovation and medium to complex challenges, creating success cases that become references for other projects.</p>
+  <hr>
+  <h2 id="🛠-tech-stack">🛠 Tech Stack</h2>
+  <h3 id="backend">Backend</h3>
+  <ul>
+  <li><p><strong>Languages</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
+    <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sql&logoColor=white" alt="SQL">
+    <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
+    <img src="https://img.shields.io/badge/PLSQL-2962FF?style=for-the-badge" alt="PLSQL"></li>
+  </ul>
+  </li>
+  <li><p><strong>Frameworks and Libraries</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" alt="Spring Boot">
+    <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white" alt="Spring Security">
+    <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring MVC">
+    <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate">
+    <img src="https://img.shields.io/badge/JPA-F2F4F9?style=for-the-badge" alt="JPA">
+    <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></li>
+  </ul>
+  </li>
+  <li><p><strong>Databases</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle DB">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server">
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></li>
+  </ul>
+  </li>
+  <li><p><strong>Integrations</strong>:</p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Apache%20Kafka-000000?style=for-the-badge&logo=apache-kafka" alt="Kafka">
+    <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
+    <img src="https://img.shields.io/badge/REST-02569B?style=for-the-badge" alt="REST">
+    <img src="https://img.shields.io/badge/SOAP-FF5722?style=for-the-badge" alt="SOAP"></li>
+  </ul>
+  </li>
+  <li><p><strong>Security</strong>:</p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/WSO2-FF7300?style=for-the-badge" alt="WSO2">
+    <img src="https://img.shields.io/badge/Keycloak-000000?style=for-the-badge&logo=keycloak&logoColor=white" alt="Keycloak"></li>
+  </ul>
+  </li>
+  <li><p><strong>DevOps Technologies</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
+    <img src="https://img.shields.io/badge/CI%2FCD-239120?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD">
+    <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
+    <img src="https://img.shields.io/badge/Bamboo-0052CC?style=for-the-badge&logo=bamboo&logoColor=white" alt="Atlassian Bamboo"></li>
+  </ul>
+  </li>
+  <li><p><strong>Operating Systems</strong>:</p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"></li>
+  </ul>
+  </li>
+  <li><p><strong>Tools</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="GIT">
+    <img src="https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA">
+    <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube">
+    <img src="https://img.shields.io/badge/DBeaver-3776AB?style=for-the-badge&logo=dbeaver&logoColor=white" alt="DBeaver">
+    <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana">
+    <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"></li>
+  </ul>
+  </li>
+  </ul>
+  <hr>
+  <h3 id="frontend">Frontend</h3>
+  <ul>
+  <li><p><strong>Languages</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></li>
+  </ul>
+  </li>
+  <li><p><strong>Frameworks and Libraries</strong>: </p>
+  <ul>
+  <li><img src="https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white" alt="AngularJS">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></li>
+  </ul>
+  </li>
+  </ul>
+  <hr>
+  <h2 id="🚀-professional-experience">🚀 Professional Experience</h2>
+  <h3 id="sap-commerce-architect---discover"><strong>SAP Commerce Architect</strong> - Discover</h3>
+  <p><sup>(April 2023 - Present)</sup><br><em>Responsible for designing, implementing, and optimizing large-scale e-commerce platforms, ensuring that the delivered solutions are adaptable, secure, and tailored to meet clients&#39; specific needs.</em></p>
+  <h3 id="servicenow-tech-lead---aoop-cloud-solutions"><strong>ServiceNow Tech Lead</strong> - Aoop Cloud Solutions</h3>
+  <p><sup>(December 2022 - April 2023)</sup><br><em>Technical leadership in one of the ABInBev (AMBEV) squads, focused on implementing IT solutions with ServiceNow and process integration.</em></p>
+  <h3 id="servicenow-technical-consultant---aoop-cloud-solutions"><strong>ServiceNow Technical Consultant</strong> - Aoop Cloud Solutions</h3>
+  <p><sup>(November 2021 - December 2022)</sup><br><em>Provided technical consultancy for the ServiceNow platform, focusing on process integration and customized solution implementation.</em></p>
+  <h3 id="senior-sap-hybris-developer---ntt-data-business-solutions-brazil"><strong>Senior SAP Hybris Developer</strong> - NTT DATA Business Solutions Brazil</h3>
+  <p><sup>(April 2021 - October 2021)</sup><br><em>Developed e-commerce solutions using SAP Hybris, focusing on scalability and performance for large clients.</em></p>
+  <h3 id="senior-sap-hybris-developer---fh_"><strong>Senior SAP Hybris Developer</strong> - FH_</h3>
+  <p><sup>(June 2019 - April 2021)</sup><br><em>Led e-commerce projects with SAP Hybris, implementing new functionalities and improving existing systems.</em></p>
+  <h3 id="postgraduate-professor---uniguairacá-centro-universitário"><strong>Postgraduate Professor</strong> - UniGuairacá Centro Universitário</h3>
+  <p><sup>(October 2020 - December 2020)</sup><br><em>Responsible for teaching a mobile development course using Flutter.</em></p>
+  <h3 id="systems-analyst---tivit"><strong>Systems Analyst</strong> - TIVIT</h3>
+  <p><sup>(October 2018 - April 2019)</sup><br><em>Developed solutions for the banking sector using Java EE, EJB, Hibernate, Spring, and other technologies, while maintaining legacy systems.</em></p>
+  <h3 id="developer---brq"><strong>Developer</strong> - BRQ</h3>
+  <p><sup>(June 2018 - September 2018)</sup><br><em>Developed and maintained systems in Java EE, Spring, Hibernate, AngularJS, and other technologies. Worked directly with clients.</em></p>
+  <h3 id="systems-analyst---faculdade-guairacá"><strong>Systems Analyst</strong> - Faculdade Guairacá</h3>
+  <p><sup>(July 2017 - March 2018)</sup><br><em>Developed solutions in Java EE, Angular, Spring, and provided consultancy in new technologies.</em></p>
+  <h3 id="programmer---bsoft-internetworks"><strong>Programmer</strong> - Bsoft Internetworks</h3>
+  <p><sup>(October 2016 - June 2017)</sup><br><em>Developed new features and resolved issues using Delphi.</em></p>
+  <hr>
+  <h2 id="🚀-projects">🚀 Projects</h2>
+  <h3 id="arezzo---sap-commerce-upgrade-2011-july-2021---november-2021"><strong>Arezzo - SAP Commerce Upgrade 2011</strong> (July 2021 - November 2021)</h3>
+  <ul>
+  <li><strong>Company</strong>: NTT DATA Business Solutions Brazil</li>
+  <li><strong>Description</strong>: Technical lead for the architecture and upgrade of SAP Commerce versions, migrating from version 6.6 to 2011.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, Oracle DB, Maven, Linux, Scrum, Docker, Jenkins, Git, JIRA, Hybris</li>
+  </ul>
+  <h3 id="magnum-tires---sap-commerce-october-2021"><strong>Magnum Tires - SAP Commerce</strong> (October 2021)</h3>
+  <ul>
+  <li><strong>Company</strong>: NTT DATA Business Solutions Brazil</li>
+  <li><strong>Description</strong>: Initial project setup and cloud CCV2 environment configuration.</li>
+  <li><strong>Skills</strong>: Java, SQL, Spring MVC, Maven, Linux, Git, Hybris</li>
+  </ul>
+  <h3 id="etna-b2c--marketplace-in--anymarket-january-2021---february-2021"><strong>ETNA B2C + Marketplace IN + Anymarket</strong> (January 2021 - February 2021)</h3>
+  <ul>
+  <li><strong>Company</strong>: NTT DATA Business Solutions Brazil</li>
+  <li><strong>Description</strong>: Responsible for the architecture and development of integrations between ETNA and Anymarket (Marketplace Hub), enabling partner products to be sold on ETNA&#39;s e-commerce platform.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, SAP Cloud Platform Integration, Docker, Git, JIRA, Hybris</li>
+  </ul>
+  <h3 id="arauco-chile---sap-commerce-b2c-marketplace-may-2020---november-2020"><strong>Arauco Chile - SAP Commerce B2C Marketplace</strong> (May 2020 - November 2020)</h3>
+  <ul>
+  <li><strong>Company</strong>: FH_</li>
+  <li><strong>Description</strong>: Implementation of SAP Commerce for the B2C market with integrations and customizations for the marketplace.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, Maven, Linux, Scrum, Git, Hybris</li>
+  </ul>
+  <h3 id="arauco-méxico---sap-commerce-b2b-july-2020---november-2020"><strong>Arauco México - SAP Commerce B2B</strong> (July 2020 - November 2020)</h3>
+  <ul>
+  <li><strong>Company</strong>: FH_</li>
+  <li><strong>Description</strong>: Development of SAP Commerce solutions for the B2B market in Mexico.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, Maven, Linux, Scrum, Git, Hybris</li>
+  </ul>
+  <h3 id="etna-b2c---black-friday-2020-october-2020---november-2020"><strong>ETNA B2C - Black Friday 2020</strong> (October 2020 - November 2020)</h3>
+  <ul>
+  <li><strong>Company</strong>: NTT DATA Business Solutions Brazil</li>
+  <li><strong>Description</strong>: Lead architect responsible for performance testing and improvements to ensure ETNA&#39;s e-commerce was available and fast during Black Friday 2020, supporting over 6000 simultaneous accesses.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, SAP Cloud Platform Integration, Docker, Git, JIRA, Hybris</li>
+  </ul>
+  <h3 id="servimed---sap-commerce-b2b-september-2020"><strong>Servimed - SAP Commerce B2B</strong> (September 2020)</h3>
+  <ul>
+  <li><strong>Company</strong>: NTT DATA Business Solutions Brazil</li>
+  <li><strong>Description</strong>: Brief technical contribution to the SAP Commerce B2B project.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, Maven, Linux, Scrum, Git, Hybris</li>
+  </ul>
+  <h3 id="arauco-argentina---sap-commerce-b2c-marketplace-february-2020---june-2020"><strong>Arauco Argentina - SAP Commerce B2C Marketplace</strong> (February 2020 - June 2020)</h3>
+  <ul>
+  <li><strong>Company</strong>: FH_</li>
+  <li><strong>Description</strong>: Implementation of SAP Commerce solutions for the B2C market with marketplace integrations.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, Maven, Linux, Scrum, Git, Hybris</li>
+  </ul>
+  <h3 id="arezzo---sap-commerce-upgrade-66-april-2019---july-2019"><strong>Arezzo - SAP Commerce Upgrade 6.6</strong> (April 2019 - July 2019)</h3>
+  <ul>
+  <li><strong>Company</strong>: FH_</li>
+  <li><strong>Description</strong>: Technical lead for the upgrade of SAP Commerce from version 5.4 to 6.6, including module migrations, new features, and minimizing impacts on existing processes.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, Oracle DB, Maven, Linux, Scrum, Docker, Jenkins, Git, JIRA, Hybris</li>
+  </ul>
+  <h3 id="etna-b2c--marketplace-out--anymarket-august-2019---november-2019"><strong>ETNA B2C + Marketplace OUT + Anymarket</strong> (August 2019 - November 2019)</h3>
+  <ul>
+  <li><strong>Company</strong>: FH_</li>
+  <li><strong>Description</strong>: Development of integrations between SAP Commerce and Anymarket, enabling ETNA products to be sold on partner marketplaces.</li>
+  <li><strong>Skills</strong>: Java, API REST, SQL, Spring MVC, SAP Cloud Platform Integration, Docker, Git, JIRA, Hybris</li>
+  </ul>
+  <h3 id="gclin-january-2016---july-2016"><strong>GClin</strong> (January 2016 - July 2016)</h3>
+  <ul>
+  <li><strong>Company</strong>: Faculdade Guairacá</li>
+  <li><strong>Description</strong>: Planning, development, and implementation of a Java SE system for integrated clinics, using Hibernate and MySQL.</li>
+  <li><strong>Skills</strong>: Java, SQL, PL/SQL, JPA, Database, Hibernate</li>
+  </ul>
+  <hr>
+  <h2 id="certifications">Certifications</h2>
+  <ul>
+  <li><strong>Certified System Administrator - ServiceNow</strong></li>
+  <li><strong>Certified Application Developer - ServiceNow</strong></li>
+  <li><strong>DEVOPS ESSENTIALS PROFESSIONAL CERTIFICATE (DEPC)</strong></li>
+  <li><strong>Micro-Certification - Flow Designer</strong></li>
+  </ul>
+  <hr>
+  <h2 id="🔗-connect-with-me">🔗 Connect with Me</h2>
+  <p><a href="https://linkedin.com/in/lucaskulikchropacz"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue" alt="LinkedIn"></a><br><a href="mailto:lucaskulik@outlook.com"><img src="https://img.shields.io/badge/Email-Contact-green" alt="Email"></a></p>
+  
