@@ -13,7 +13,7 @@
 </p>
 
 <p align="center" style="margin-top: 30px;">
-  <a href="README.en.md" style="
+  <a href="en.html" style="
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -26,7 +26,7 @@
     🇺🇸 English
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="README.pt.md" style="
+  <a href="pt.html" style="
     text-decoration: none;
     font-size: 20px;
     color: white;
