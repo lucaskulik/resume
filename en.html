@@ -1,77 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucas KuliK - Resume</title>
     <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <link
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        margin: 0;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      #content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 900px;
+      }
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+      }
+      /* Styling for social links */
+      .social-links {
+        margin-bottom: 20px;
+      }
+      .social-links a {
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        color: #0077b5; /* LinkedIn Blue */
+      }
+      .social-links a.email {
+        color: #34a853; /* Email Green */
+      }
+      .social-links a:hover {
+        opacity: 0.7;
+      }
+      /* Responsive styles */
+      @media (max-width: 768px) {
+        #content {
+          padding: 15px;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            margin: 0;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+          padding: 10px;
+        }
+      }
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 1.5em;
         }
         #content {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 900px;
+          padding: 10px;
         }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        /* Responsive styles */
-        @media (max-width: 768px) {
-            #content {
-                padding: 15px;
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-            }
-            body {
-                padding: 10px;
-            }
-        }
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.5em;
-            }
-            #content {
-                padding: 10px;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Social Links at the Top with Icons -->
+    <div class="social-links">
+      <a href="https://linkedin.com/in/lucaskulikchropacz" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:lucaskulik@outlook.com" class="email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
 
-<!-- Placeholder for the rendered HTML -->
-<div id="content">Loading...</div>
+    <div id="content">Loading...</div>
 
-<script>
-    // Fetch and render the Markdown file
-    fetch('README.en.md')
-        .then(response => response.text())  // Get the content of the Markdown file
-        .then(text => {
-            // Initialize Showdown converter
-            const converter = new showdown.Converter();
+    <script>
+      // Fetch and render the Markdown file
+      fetch("README.en.md")
+        .then((response) => response.text()) // Get the content of the Markdown file
+        .then((text) => {
+          // Initialize Showdown converter
+          const converter = new showdown.Converter();
 
-            // Convert Markdown to HTML
-            const html = converter.makeHtml(text);
+          // Convert Markdown to HTML
+          const html = converter.makeHtml(text);
 
-            // Insert the HTML into the content div
-            document.getElementById('content').innerHTML = html;
+          // Insert the HTML into the content div
+          document.getElementById("content").innerHTML = html;
         })
-        .catch(error => {
-            document.getElementById('content').innerHTML = 'Error loading content';
-            console.error('Error fetching the Markdown file:', error);
+        .catch((error) => {
+          document.getElementById("content").innerHTML =
+            "Error loading content";
+          console.error("Error fetching the Markdown file:", error);
         });
-</script>
-
-</body>
+    </script>
+  </body>
 </html>
