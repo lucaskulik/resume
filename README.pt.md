@@ -87,43 +87,43 @@ Tenho grande interesse em inovação e desafios médios e complexos, criando cas
 ## 🚀 Experiências Profissionais
 
 ### **SAP Commerce Architect** - Discover 
-<sup> (abril de 2023 - Presente)</sup>\
+<sup> (abril de 2023 - Presente)</sup></br>
 *Responsável pelo design, implementação e otimização de plataformas de e-commerce em larga escala, garantindo que as soluções entregues sejam adaptáveis, seguras e personalizadas para atender às necessidades específicas dos clientes.*
 
 ### **ServiceNow Tech Lead** - Aoop Cloud Solutions 
-<sup>(dezembro de 2022 - abril de 2023)</sup>\
+<sup>(dezembro de 2022 - abril de 2023)</sup></br>
 *Liderança técnica em um dos squads da ABInBev (AMBEV) na implementação de soluções de TI com ServiceNow, focado em integração de processos.*
 
 ### **ServiceNow Technical Consultant** - Aoop Cloud Solutions 
-<sup>(novembro de 2021 - dezembro de 2022)</sup>\
+<sup>(novembro de 2021 - dezembro de 2022)</sup></br>
 *Consultoria técnica para a plataforma ServiceNow, atuando na integração de processos e implementação de soluções personalizadas para diferentes áreas.*
 
 ### **SAP Hybris Developer Sênior** - NTT DATA Business Solutions Brazil 
-<sup>(abril de 2021 - outubro de 2021)</sup>\
+<sup>(abril de 2021 - outubro de 2021)</sup></br>
 *Desenvolvimento de soluções e-commerce utilizando SAP Hybris, com foco em escalabilidade e desempenho para grandes clientes.*
 
 ### **SAP Hybris Developer Sênior** - FH_ 
-<sup> (junho de 2019 - abril de 2021)</sup>\
+<sup> (junho de 2019 - abril de 2021)</sup></br>
 *Atuação em projetos de e-commerce com SAP Hybris, liderando a implementação de novas funcionalidades e melhorias em sistemas já existentes.*
 
 ### **Professor de Pós-Graduação** - UniGuairacá Centro Universitário 
-<sup> (outubro de 2020 - dezembro de 2020)</sup>\
+<sup> (outubro de 2020 - dezembro de 2020)</sup></br>
 *Professor responsável pelo curso de desenvolvimento mobile utilizando Flutter.*
 
 ### **Analista de Sistemas** - TIVIT 
-<sup> (outubro de 2018 - abril de 2019)</sup>\
+<sup> (outubro de 2018 - abril de 2019)</sup></br>
 *Desenvolvimento de soluções no setor bancário, utilizando Java EE, EJB, Hibernate, Spring e outras tecnologias, além de manutenção de sistemas legados.*
 
 ### **Developer** - BRQ 
-<sup> (junho de 2018 - setembro de 2018)</sup>\
+<sup> (junho de 2018 - setembro de 2018)</sup></br>
 *Desenvolvimento e manutenção de sistemas em Java EE, Spring, Hibernate, AngularJS e outras tecnologias. Atuação diretamente no cliente.*
 
 ### **Analista de Sistemas** - Faculdade Guairacá 
-<sup> (julho de 2017 - março de 2018)</sup>\
+<sup> (julho de 2017 - março de 2018)</sup></br>
 *Desenvolvimento de soluções em Java EE, Angular, Spring, e atuação como consultor em novas tecnologias.*
 
 ### **Programador** - Bsoft Internetworks
-<sup> (outubro de 2016 - junho de 2017)</sup>\
+<sup> (outubro de 2016 - junho de 2017)</sup></br>
 *Desenvolvimento de novas funcionalidades e correção de problemas em Delphi.*
 
 ---
